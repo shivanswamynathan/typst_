@@ -1,0 +1,26 @@
+{
+    "name": "typst-canvas-renderer",
+    "version": "1.0.0",
+    "description": "Render Typst content to HTML Canvas",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+      "start": "npx http-server -o"
+    },
+    "dependencies": {
+      "@myriaddreamin/typst-ts-renderer": "^0.5.5-rc7",
+      "@myriaddreamin/typst-ts-web-compiler": "^0.5.5-rc7",
+      "@myriaddreamin/typst.ts": "^0.5.5-rc7"
+    },
+    "devDependencies": {
+      "http-server": "^14.1.1"
+    },
+    "keywords": [
+      "typst",
+      "canvas",
+      "renderer",
+      "document"
+    ],
+    "author": "",
+    "license": "MIT"
+  }
